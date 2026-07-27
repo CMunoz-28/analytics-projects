@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+prophet
+plotly
+cufflinks
+geopandas
+chardet
+nbconvert
+ipykernel

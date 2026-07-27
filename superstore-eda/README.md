@@ -6,18 +6,20 @@
 
 ## Overview
 
-Business analytics and EDA on a retail superstore sales dataset. The analysis explores sales volume, profitability by state, quantity-price relationships, and the impact of discounts on margins.
+Business analytics and EDA on a global sales dataset spanning multiple countries and product lines. The analysis explores revenue totals, geographic performance, product category breakdown, deal size impact, and the relationship between discounts and margins.
 
 ## Dataset
 
-- **Source:** Kaggle — Sample Superstore Dataset
-- **Features:** QUANTITYORDERED, SALES, PRICEEACH, STATE, and additional order-level fields
+- **Source:** Kaggle — Sample Superstore / Sales Dataset
+- **Scope:** Global orders across multiple territories
+- **Features:** QUANTITYORDERED, SALES, PRICEEACH, STATE, COUNTRY, PRODUCTLINE, DEALSIZE, ORDERDATE, and additional order-level fields
 
 ## Objectives
 
-- Summarize total sales and profitability figures
-- Identify top-performing states by sales and profit
-- Explore the relationship between discounts, sales volume, and margins
+- Compute actual total sales and revenue figures from the dataset
+- Identify top-performing countries and territories by sales volume
+- Break down revenue by product line and deal size
+- Explore monthly sales trends over time
 - Detect and handle outliers in sales and quantity data
 
 ## Approach
@@ -26,17 +28,20 @@ Business analytics and EDA on a retail superstore sales dataset. The analysis ex
 2. Remove duplicate rows and validate final shape
 3. Outlier detection on QUANTITYORDERED and SALES via box plots
 4. IQR-based outlier removal (99th percentile threshold)
-5. Aggregate total sales and profit figures
-6. Bar charts for top 10 states by sales and profit
-7. Scatter plot for interdependence of sales, quantity, and price
-8. Pair plots and correlation heatmap for financial variables
+5. Aggregate total revenue and unit totals
+6. Geographic breakdown — top 10 territories by sales and quantity
+7. Product line revenue and unit comparison
+8. Deal size distribution and average order value
+9. Monthly sales trend over time
+10. Correlation heatmap across financial variables
 
 ## Key Findings
 
-- **Top states by sales and profit:** CA, MA, NY, NSW, Victoria, PA, CT, BC, NH, Tokyo
-- Higher discounts correlate with increased sales volume but reduced profit margins
-- Technology category shows stronger profit performance due to lower average discount rates
-- Positive correlation between sales and quantity ordered, weaker with price per item
+- Dataset includes international orders spanning the US, Europe, and Asia-Pacific — this is a global sales dataset
+- Top revenue territories are consistent across both sales volume and units ordered
+- Large deals generate significantly higher average revenue per order compared to medium or small
+- Higher discounts increase order volume but reduce per-unit revenue, confirming the discount-margin tradeoff
+- Strong positive correlation between quantity ordered and total sales
 
 ## Tools
 

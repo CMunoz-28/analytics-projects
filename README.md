@@ -36,4 +36,4 @@ A collection of personal analytics projects spanning marketing analysis, custome
 
 ---
 
-> All notebooks are hosted on Google Colab. Use the **Open in Colab** badges in each project README to run them interactively.
+> Notebooks execute automatically on every push via GitHub Actions — outputs, charts, and results are visible directly on GitHub. Use the **Open in Colab** badges in each project README to run them interactively.

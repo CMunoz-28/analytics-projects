@@ -46,4 +46,4 @@ Exploratory data analysis on a real-world marketing dataset to understand custom
 | File | Description |
 |------|-------------|
 | `Campaign Performance.ipynb` | Full EDA notebook |
-| `ifood_df.csv` | Source dataset (not included — available on Kaggle) |
+| `ifood_df.csv` | Source dataset (2,206 customers) |

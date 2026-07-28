@@ -9,9 +9,9 @@ Time series forecasting of website traffic using Facebook Prophet. Analyzes hist
 
 ## Dataset
 
-- **Source:** Internal web analytics export
-- **Files:** `Clicks.csv` (date, traffic volume), `art_daily_small_noise.csv` (Numenta benchmark series)
-- **Frequency:** Daily
+- **Source:** Marketing campaign dataset (10,000 records)
+- **Features:** Date, clicks, impressions, conversion rate, channel, campaign type
+- **Frequency:** Daily aggregated click volume
 
 ## Objectives
 
@@ -46,5 +46,4 @@ Time series forecasting of website traffic using Facebook Prophet. Analyzes hist
 | File | Description |
 |------|-------------|
 | `Site-Traffic-Forecast.ipynb` | Full forecasting notebook |
-| `Clicks.csv` | Historical web traffic data |
-| `art_daily_small_noise.csv` | Benchmark time series for model testing |
+| `marketing_campaign_dataset.csv` | Source dataset (10,000 records) |

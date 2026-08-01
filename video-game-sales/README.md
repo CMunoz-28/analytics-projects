@@ -10,7 +10,7 @@ End-to-end EDA on a global video game sales dataset covering North America, Euro
 
 ## Dataset
 
-- **Source:** Kaggle — Video Game Sales
+- **Source:** Kaggle: Video Game Sales
 - **Size:** 11,914 titles (after deduplication); 16,598 raw rows
 - **Features:** Genre, Year, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales
 

@@ -10,7 +10,7 @@ Business analytics and EDA on a global sales dataset spanning multiple countries
 
 ## Dataset
 
-- **Source:** Kaggle — Sample Superstore / Sales Dataset
+- **Source:** Kaggle: Sample Superstore / Sales Dataset
 - **Scope:** Global orders across multiple territories
 - **Features:** QUANTITYORDERED, SALES, PRICEEACH, STATE, COUNTRY, PRODUCTLINE, DEALSIZE, ORDERDATE, and additional order-level fields
 
@@ -29,7 +29,7 @@ Business analytics and EDA on a global sales dataset spanning multiple countries
 3. Outlier detection on QUANTITYORDERED and SALES via box plots
 4. IQR-based outlier removal (99th percentile threshold)
 5. Aggregate total revenue and unit totals
-6. Geographic breakdown — top 10 territories by sales and quantity
+6. Geographic breakdown: top 10 territories by sales and quantity
 7. Product line revenue and unit comparison
 8. Deal size distribution and average order value
 9. Monthly sales trend over time
@@ -37,7 +37,7 @@ Business analytics and EDA on a global sales dataset spanning multiple countries
 
 ## Key Findings
 
-- Dataset includes international orders spanning the US, Europe, and Asia-Pacific — this is a global sales dataset
+- Dataset includes international orders spanning the US, Europe, and Asia-Pacific. This is a global sales dataset
 - Top revenue territories are consistent across both sales volume and units ordered
 - Large deals generate significantly higher average revenue per order compared to medium or small
 - Higher discounts increase order volume but reduce per-unit revenue, confirming the discount-margin tradeoff

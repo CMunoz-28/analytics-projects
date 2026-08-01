@@ -10,7 +10,7 @@ Exploratory data analysis on a real-world marketing dataset to understand custom
 
 ## Dataset
 
-- **Source:** Kaggle — iFood Marketing Data
+- **Source:** Kaggle: iFood Marketing Data
 - **Size:** 2,206 customers
 - **Features:** Customer profiles, product spend by category, campaign response flags, channel engagement
 

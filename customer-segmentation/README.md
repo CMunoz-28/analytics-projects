@@ -35,10 +35,10 @@ Applied K-Means clustering to segment mall customers by annual income and spendi
 ## Key Findings
 
 - Optimal cluster count: **3 segments**
-- **Cluster 0:** Low income, low spend: price-sensitive customers
-- **Cluster 1:** High income, high spend: premium target segment
-- **Cluster 2:** Moderate income, moderate spend: mid-market customers
-- Customers aged 60-70 spend less than those aged 20-40, consistent with retirement income patterns
+- **Cluster 0:** Mid income (~$63k), mid spend (score 55): balanced, moderately engaged customers; median age 52
+- **Cluster 1:** High income (~$81k), low spend (score 13): high earners who are not converting to high spenders; median age 30
+- **Cluster 2:** Low income (~$23.5k), low-to-mid spend (score 39.5): budget-constrained segment; median age 27
+- Age patterns differ by cluster: younger customers (Cluster 2) show the lowest income but do not have the lowest spend scores
 
 ## Tools
 

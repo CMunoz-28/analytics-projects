@@ -15,13 +15,13 @@ A collection of personal analytics projects spanning marketing analysis, custome
 
 | # | Project | Focus Area | Dataset | Tools |
 |---|---------|-----------|---------|-------|
-| 1 | [Campaign Performance](campaign-performance/) | Marketing Analytics | iFood Marketing (2,206 customers) | Python, Pandas, Seaborn |
+| 1 | [Campaign Performance](campaign-performance/) | Marketing Analytics | iFood Marketing (2,240 customers) | Python, Pandas, Seaborn |
 | 2 | [Customer Segmentation](customer-segmentation/) | Segmentation, Clustering | Mall Customers (200 records) | Python, Scikit-learn, Plotly |
 | 3 | [Conversion Rate EDA](conversion-eda/) | Campaign Analytics | Marketing Campaign Dataset | Python, Pandas, Seaborn |
 | 4 | [Site Traffic Forecast](site-traffic-forecast/) | Forecasting | Web Clicks Time Series | Python, Prophet, Matplotlib |
 | 5 | [Superstore Sales EDA](superstore-eda/) | Business Analytics | Superstore Sales Dataset | Python, Pandas, Plotly |
-| 6 | [Video Game Sales EDA](video-game-sales/) | Sales Analytics | Kaggle VGSales (11,914 titles) | Python, Pandas, Seaborn |
-| 7 | [Google Play Store SQL](google-play-sql/) | SQL Analytics | Google Play Store (10,841 apps) | Python, SQLite3, Pandas |
+| 6 | [Video Game Sales EDA](video-game-sales/) | Sales Analytics | Kaggle VGSales (16,598 raw rows; 11,675 after cleaning) | Python, Pandas, Seaborn |
+| 7 | [Google Play Store SQL](google-play-sql/) | SQL Analytics | Google Play Store (9,366 apps after cleaning; 33 categories) | Python, SQLite3, Pandas |
 
 ---
 

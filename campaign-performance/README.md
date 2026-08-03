@@ -11,7 +11,7 @@ Exploratory data analysis on a real-world marketing dataset to understand custom
 ## Dataset
 
 - **Source:** Kaggle: iFood Marketing Data
-- **Size:** 2,206 customers
+- **Size:** 2,240 customers
 - **Features:** Customer profiles, product spend by category, campaign response flags, channel engagement
 
 ## Objectives
@@ -32,7 +32,7 @@ Exploratory data analysis on a real-world marketing dataset to understand custom
 
 ## Key Findings
 
-- Most customers fall between ages 43 and 55; youngest is 24, oldest is 70
+- Most customers fall between ages 47 and 65 (IQR); mean age is 55; a maximum of 131 was noted as a likely data entry error
 - Significant spread in food spend across product categories
 - Campaign performance varies by customer segment and channel
 - Web and store channels drive the majority of transactions
@@ -46,4 +46,4 @@ Exploratory data analysis on a real-world marketing dataset to understand custom
 | File | Description |
 |------|-------------|
 | `Campaign Performance.ipynb` | Full EDA notebook |
-| `ifood_df.csv` | Source dataset (2,206 customers) |
+| `ifood_df.csv` | Source dataset (2,240 customers) |

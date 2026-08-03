@@ -11,7 +11,7 @@ End-to-end EDA on a global video game sales dataset covering North America, Euro
 ## Dataset
 
 - **Source:** Kaggle: Video Game Sales
-- **Size:** 11,914 titles (after deduplication); 16,598 raw rows
+- **Size:** 16,598 raw rows; 11,675 titles after cleaning (null Year removal and IQR outlier removal)
 - **Features:** Genre, Year, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales
 
 ## Objectives
@@ -26,7 +26,7 @@ End-to-end EDA on a global video game sales dataset covering North America, Euro
 1. Load dataset and inspect column types
 2. Drop non-analytical columns (Name, Platform)
 3. Rename columns for readability
-4. Identify and remove duplicate rows (989 duplicates removed)
+4. Duplicate check — 0 exact duplicate rows found
 5. Null value detection and removal
 6. IQR-based outlier removal across all sales columns
 7. Histogram of NA_Sales distribution
@@ -37,7 +37,7 @@ End-to-end EDA on a global video game sales dataset covering North America, Euro
 
 - Strong positive correlation between NA_Sales and Global_Sales
 - Japan sales show weaker correlation with Western markets, reflecting distinct consumer preferences
-- Outlier removal reduced dataset by approximately 1,600 rows beyond duplicates
+- Outlier removal via IQR flagged approximately 4,600 rows; combined with 271 null Year records, final dataset is 11,675 titles
 - Histogram reveals a right-skewed distribution in North American sales
 
 ## Tools

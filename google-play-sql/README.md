@@ -7,12 +7,12 @@
 
 ## Overview
 
-SQL-based analysis of the Google Play Store dataset using SQLite3 within Python. Combines structured querying with Pandas and visualization to surface insights on app ratings, installs, categories, and pricing across 10,841 apps.
+SQL-based analysis of the Google Play Store dataset using SQLite3 within Python. Combines structured querying with Pandas and visualization to surface insights on app ratings, installs, categories, and pricing across 9,366 apps after cleaning.
 
 ## Dataset
 
 - **Source:** Kaggle: Google Play Store Apps
-- **Size:** 10,841 apps, 34 categories
+- **Size:** 10,841 apps raw; 9,366 apps across 33 categories after cleaning
 - **Features:** App, Category, Rating, Reviews, Size, Installs, Type, Price, Content Rating, Genres, Last Updated, Current Ver, Android Ver
 
 ## Objectives
@@ -34,9 +34,9 @@ SQL-based analysis of the Google Play Store dataset using SQLite3 within Python.
 
 ## Key Findings
 
-- Dataset spans 34 categories with significant variation in app volume and rating quality
+- Dataset spans 33 categories after cleaning, with significant variation in app volume and rating quality
 - Free apps dominate across all categories; paid apps cluster in Education and Productivity
-- Top-installed categories include Communication, Social, and Video Players
+- Games lead installs by a wide margin (35B+), followed by Communication and Productivity
 - Data quality issues in Rating and Installs columns require preprocessing before aggregation
 
 ## Tools

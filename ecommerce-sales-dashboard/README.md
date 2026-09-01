@@ -20,7 +20,7 @@ This interactive Tableau dashboard analyzes e-commerce sales performance across 
 ![E-Commerce Sales Dashboard — Top Half](ecommerce-screenshot-1.png)
 ![E-Commerce Sales Dashboard — Bottom Half](ecommerce-screenshot-2.png)
 
-**[View Live Dashboard on Tableau Public →](#)**
+**[View Live Dashboard on Tableau Public →](https://public.tableau.com/views/E-Commercedashboard_17880386440630/Dashboard)**
 
 ---
 
